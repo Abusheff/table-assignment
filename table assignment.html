@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+    <h2> Table Assignment</h2>
+    <table id="table1" style="width: 100%">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+            <td>Basit</td>
+            <td>18</td>
+            <td>M</td>
+            <td>Web Dev</td>
+        </tr>
+        <tr>
+            <td>Gaffar</td>
+            <td>18</td>
+            <td>F</td>
+            <td>Web Dev</td>
+        </tr>
+        <tr>
+            <td colspan="2">Ore Dayo</td>
+            <td>Fm</td>
+            <td>Admin</td>
+        </tr>
+    </table>
+    <br><br>
+    <form action="/action_page.php">
+        <input list="courses" name="courses">
+        <datalist id="courses">
+            <option value="html">
+            <option value="css">
+            <option value="javascript">
+        </datalist>
+        <input type="submit">
+    </form>
+</body>
+</html>
